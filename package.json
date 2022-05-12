@@ -1,0 +1,25 @@
+{
+  "name": "cfn-11ty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx @11ty/eleventy",
+    "clean": "rm -rf _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code4nova/cfn-11ty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code4nova/cfn-11ty/issues"
+  },
+  "homepage": "https://github.com/code4nova/cfn-11ty#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0"
+  }
+}
