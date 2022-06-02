@@ -20,6 +20,7 @@
   "homepage": "https://github.com/code4nova/cfn-11ty#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
+    "prettier": "2.6.2"
   }
 }
